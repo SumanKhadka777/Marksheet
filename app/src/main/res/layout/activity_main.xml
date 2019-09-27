@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:soundEffectsEnabled="true"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:padding="20dp" />
+
+    <EditText
+        android:id="@+id/etAndroid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Android Marks"
+        android:padding="20dp" />
+
+    <EditText
+        android:id="@+id/etIPC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter IPC Makrs"
+        android:padding="20dp" />
+
+    <EditText
+        android:id="@+id/etAPI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Web API Marks"
+        android:padding="20dp" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/colorPrimary"
+        android:text="Calculate" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@android:dimen/app_icon_size"
+        />
+
+
+
+</LinearLayout>
